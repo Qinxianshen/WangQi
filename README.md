@@ -1,6 +1,8 @@
 # WangQi
 
-android 商城
+
+[android 商城](https://github.com/Qinxianshen/WangQi-android)
+
 
 #### 核心框架 
 
@@ -38,6 +40,12 @@ wangqi_core 依赖 wangqi_annotations
 (4) [什么是annotationProcessor与apt](https://blog.csdn.net/xx326664162/article/details/68490059)
 
 (5) EC依赖core core包含过的库EC都可以不用在包含了  这样重复  example同理
+
+(6) VCS 里 允许用git托管 主要是在 .gitignore file 里添加bulid(编译时候的中间产物) .idea（AS自带的配置文件） 和 .gradle（太大不需要） local.properties即可
+
+(7)[在AS里用Git管理 ](https://www.jianshu.com/p/b67ed0ec496f)
+
+
  
 
 
